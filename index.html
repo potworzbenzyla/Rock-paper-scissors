@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Rock, paper, scissors</title>
+        <meta charset = 'utf8'>
+        <script src='script.js'></script>
+        <link rel='stylesheet' type='text/css' href='styles.css'>
+    </head>
+    <body>
+        <div id='gameModeSelection'>
+            <button class='gameMode' id='gameModeMultiplayer'>Multiplayer</button>
+            <button class='gameMode' id='gameModeSingleplayer'>Singleplayer</button>
+        </div>
+
+        <div id='game'>
+            <div id='scoreTable'>
+                <div class='playerName' id='firstPlayerName'></div>
+                <div class='playerScore' id='firstPlayerScore'>0</div>
+                <div class='playerScore' id='secondPlayerScore'>0</div>
+                <div class='playerName' id='secondPlayerName'></div>
+            </div>
+
+            <div id='mainTextOutput'>Select gamemode.</div>
+
+            <button type='button' class='selection' id='paper'> Paper </button>
+            <button type='button' class='selection' id='rock'> Rock </button>
+            <button type='button' class='selection' id='scissors'> Scissors </button>
+
+            <div id='textOutput'> </div>
+        </div>
+    </body>
+</html>
